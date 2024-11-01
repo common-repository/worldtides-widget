@@ -1,0 +1,52 @@
+@font-face {
+    font-family: 'worldtides';
+    src: url('worldtides-regular.eot'); /* IE9 Compat Modes */
+    src: url('worldtides-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('worldtides-regular.otf') format('opentype'), /* Safari, Android, iOS */
+         url('worldtides-regular.woff') format('woff'), /* Modern Browsers */
+         url('worldtides-regular.woff2') format('woff2'), /* Modern Browsers */
+         url('worldtides-regular.ttf') format('truetype'); /* Safari, Android, iOS */
+             font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+.worldtides {
+    display                 : inline-block;
+    font-family             : 'worldtides';
+    font-style              : normal;
+    font-weight             : normal;
+    line-height             : 1;
+    -webkit-font-smoothing  : antialiased;
+    -moz-osx-font-smoothing : grayscale;
+}
+.worldtides-high-tide:before {
+    content : "A";
+}
+.worldtides-low-tide:before {
+    content : "B";
+}
+.worldtides-tide-5:before {
+    content : "C";
+}
+.worldtides-tide-4:before {
+    content : "D";
+}
+.worldtides-tide-3:before {
+    content : "E";
+}
+.worldtides-tide-2:before {
+    content : "F";
+}
+.worldtides-tide-1:before {
+    content : "G";
+}
+.worldtides-tide-0:before {
+    content : "G";
+}
+.worldtides-high-tide-alt:before {
+    content : "H";
+}
+
+
+
